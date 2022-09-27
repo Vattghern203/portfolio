@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none; }
+
+html {
+  /*10px in percentage, to adapt to any font-size that is used by the user*/
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", "Roboto", sans-serif;
+  font-weight: 400; }
+
+.header {
+  font-size: 2rem; }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem;
+  background-color: #212129;
+  color: #777; }
+  .header__logo {
+    border-radius: 50%;
+    background-size: cover;
+    height: 10rem; }
+  .header__nav {
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8rem; }
+    .header__nav-anchor:visited .header__nav-anchor:link {
+      color: #777; }
+    .header__nav-anchor:hover {
+      color: lighter; }
+
+.section {
+  max-width: 20rem;
+  height: fit-content;
+  border-radius: 10rem;
+  background-color: #4C5265; }

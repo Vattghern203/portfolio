@@ -4,6 +4,7 @@
   "description": "A portfolio to know me better :)",
   "main": "index.js",
   "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "vattghern203",

@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8rem;
+
+    background-color: $color-darker-gray;
+    color: $font-color-gray;
+
+    &__logo {
+        border-radius: 50%;
+        background-size: cover;
+        height: 10rem;
+    }
+
+    &__nav {
+        display: inherit;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 8rem;
+
+        &-anchor {
+            
+            &:visited &:link {
+                color: $font-color-gray;
+            }
+
+            &:hover {
+                color: lighter
+            }
+        }
+    }
+}
