@@ -20,6 +20,10 @@ body {
 .header {
   font-size: 2rem; }
 
+.section {
+  font-size: 8rem;
+  word-wrap: break-word; }
+
 .header {
   display: flex;
   flex-direction: row;
@@ -43,7 +47,13 @@ body {
       color: lighter; }
 
 .section {
-  max-width: 20rem;
+  max-width: 80%;
   height: fit-content;
-  border-radius: 10rem;
-  background-color: #4C5265; }
+  border-radius: 2.5rem;
+  padding: 6.4rem;
+  margin: auto;
+  background-color: #4C5265;
+  color: whitesmoke; }
+
+body {
+  background-color: #212129; }
