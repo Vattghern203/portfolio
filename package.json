@@ -4,12 +4,12 @@
   "description": "A portfolio to know me better :)",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w",
+    "compile:sass": "sass assets/sass/main.scss assets/css/style.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "vattghern203",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^7.0.3"
+    "sass": "^1.55.0"
   }
 }

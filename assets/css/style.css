@@ -4,25 +4,31 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 html {
   /*10px in percentage, to adapt to any font-size that is used by the user*/
-  font-size: 62.5%; }
+  font-size: 62.5%;
+}
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Lato", "Roboto", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 .header {
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 .section {
   font-size: 8rem;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+}
 
 .header {
   display: flex;
@@ -31,20 +37,25 @@ body {
   justify-content: space-between;
   padding: 8rem;
   background-color: #212129;
-  color: #777; }
-  .header__logo {
-    border-radius: 50%;
-    background-size: cover;
-    height: 10rem; }
-  .header__nav {
-    display: inherit;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 8rem; }
-    .header__nav-anchor:visited .header__nav-anchor:link {
-      color: #777; }
-    .header__nav-anchor:hover {
-      color: lighter; }
+  color: #777;
+}
+.header__logo {
+  border-radius: 50%;
+  background-size: cover;
+  height: 10rem;
+}
+.header__nav {
+  display: inherit;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8rem;
+}
+.header__nav-anchor:visited .header__nav-anchor:link {
+  color: #777;
+}
+.header__nav-anchor:hover {
+  color: lighter;
+}
 
 .section__primary {
   display: flex;
@@ -57,10 +68,14 @@ body {
   border-radius: 1.6rem;
   overflow: hidden;
   background-color: #3F445A;
-  color: whitesmoke; }
-  .section__primary-text {
-    font-size: 6rem;
-    word-wrap: break-word; }
-
+  color: whitesmoke;
+}
+.section__primary-text {
+  font-size: 6rem;
+  word-wrap: break-word;
+}
 body {
-  background-color: #212129; }
+  background-color: #212129;
+}
+
+/*# sourceMappingURL=style.css.map */
