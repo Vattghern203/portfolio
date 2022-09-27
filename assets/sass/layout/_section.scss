@@ -1,11 +1,32 @@
-.section {
-    max-width: 80%;
-    height: fit-content;
-    border-radius: 2.5rem;
-    padding: 6.4rem;
-    margin: auto;
+.section__primary {
+    
+    &-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+
+        width: 80%;
+        height: fit-content;
+        border-radius: 2.5rem;
+        padding: 6.4rem;
+        margin: auto;
 
 
-    background-color: $color-gray-light;
-    color: whitesmoke;
+        background-color: $color-gray-light;
+        background-image: linear-gradient(to right, black 50%, rgba(white, .2)), url("https://www.enjpg.com/img/2020/lofi-3.webp");
+        background-size: cover;
+        background-position: top;
+        color: whitesmoke;
+
+        &-1 &-2 {
+            width: fit-content;
+            display: flex;
+            align-content: flex-start;
+            align-self: flex-start;
+        }
+
+    }
+
+
 }
