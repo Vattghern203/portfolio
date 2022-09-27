@@ -46,26 +46,19 @@ body {
     .header__nav-anchor:hover {
       color: lighter; }
 
-.section__primary-container {
+.section__primary {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 0 auto;
   justify-content: flex-start;
   width: 80%;
-  height: fit-content;
-  border-radius: 2.5rem;
-  padding: 6.4rem;
-  margin: auto;
-  background-color: #4C5265;
-  background-image: linear-gradient(to right, black 50%, rgba(255, 255, 255, 0.2)), url("https://www.enjpg.com/img/2020/lofi-3.webp");
+  height: 40vh;
+  background-image: url("https://c.tenor.com/XUbyMbMt6VIAAAAC/rain-wet.gif");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  color: whitesmoke; }
-  .section__primary-container-1 .section__primary-container-2 {
-    width: fit-content;
-    display: flex;
-    align-content: flex-start;
-    align-self: flex-start; }
+  border-radius: 2.5rem; }
 
 body {
   background-color: #212129; }
