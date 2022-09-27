@@ -1,17 +1,27 @@
 .section__primary {
-
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+
+    width: fit-content;
+    height: fit-content;
+
     margin: 0 auto;
-    justify-content: flex-start;
+    border-radius: 1.6rem;
 
-    width: 80%;
-    height: 40vh;
 
-    background-image: url("https://c.tenor.com/XUbyMbMt6VIAAAAC/rain-wet.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    border-radius: 2.5rem;
+    overflow: hidden;
+
+    background-color: $color-lead-dark;
+    color: whitesmoke;
+
+    &-text {
+        font-size: 6rem;
+        word-wrap: break-word;
+    }
+
+    &-text {
+
+    }
 }
