@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
-  "description": "A portfolio to know me better :)",
+  "version": "1.0.1",
+  "description": "A portfolio to know me better :).",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass assets/sass/main.scss assets/css/style.css -w",
