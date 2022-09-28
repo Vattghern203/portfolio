@@ -1,27 +1,21 @@
 .section__primary {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 
-    width: fit-content;
+    background-image: url("/assets/img/rain.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    padding: 4rem;
+
     height: fit-content;
 
-    margin: 0 auto;
-    border-radius: 1.6rem;
-
-
-    overflow: hidden;
-
-    background-color: $color-lead-dark;
-    color: whitesmoke;
-
     &-text {
-        font-size: 6rem;
-        word-wrap: break-word;
-    }
+        background-color: $color-lead-dark;
+        padding: 4rem;
+        border-radius: 1.6rem;
 
-    &-text {
-
+        max-width: calc(1vw + 100rem);
+        height: 50vh;
+        margin: auto;
     }
 }

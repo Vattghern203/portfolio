@@ -35,7 +35,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 8rem;
+  padding: 4rem;
   background-color: #212129;
   color: #777;
 }
@@ -58,22 +58,22 @@ body {
 }
 
 .section__primary {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: fit-content;
+  background-image: url("/assets/img/rain.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 4rem;
   height: fit-content;
-  margin: 0 auto;
-  border-radius: 1.6rem;
-  overflow: hidden;
-  background-color: #3F445A;
-  color: whitesmoke;
 }
 .section__primary-text {
-  font-size: 6rem;
-  word-wrap: break-word;
+  background-color: #3F445A;
+  padding: 4rem;
+  border-radius: 1.6rem;
+  max-width: calc(1vw + 100rem);
+  height: 50vh;
+  margin: auto;
 }
+
 body {
   background-color: #212129;
 }
