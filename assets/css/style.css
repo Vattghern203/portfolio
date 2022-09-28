@@ -72,7 +72,7 @@ body {
   border-radius: 1.6rem;
   max-width: calc(1vw + 100rem);
   height: 50vh;
-  margin: auto;
+  margin: 0 auto;
 }
 
 body {
