@@ -1,0 +1,10 @@
+.anchor {
+
+    &:hover {
+        color: lighten($font-color-gray, 10%);
+    }
+
+    &:link, &:visited {
+        color: $font-color-gray;
+    }
+}

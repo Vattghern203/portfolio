@@ -30,6 +30,13 @@ body {
   word-wrap: break-word;
 }
 
+.anchor:hover {
+  color: #919191;
+}
+.anchor:link, .anchor:visited {
+  color: #777;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -49,12 +56,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 8rem;
-}
-.header__nav-anchor:visited .header__nav-anchor:link {
-  color: #777;
-}
-.header__nav-anchor:hover {
-  color: lighter;
 }
 
 .section__primary {

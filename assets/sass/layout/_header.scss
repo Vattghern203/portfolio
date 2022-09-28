@@ -19,16 +19,5 @@
         flex-direction: row;
         justify-content: space-between;
         gap: 8rem;
-
-        &-anchor {
-            
-            &:visited &:link {
-                color: $font-color-gray;
-            }
-
-            &:hover {
-                color: lighter
-            }
-        }
     }
 }
