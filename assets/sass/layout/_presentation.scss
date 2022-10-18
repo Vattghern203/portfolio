@@ -22,5 +22,12 @@
         height: 50vh;
         margin: 0 auto;
 
+        &:hover {
+            color: lighten($font-color-gray, 10%);
+        }
+    
+        &:link, &:visited {
+            color: $font-color-gray;
+        }
     }
 }

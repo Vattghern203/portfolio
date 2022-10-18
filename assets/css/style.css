@@ -30,10 +30,15 @@ body {
   word-wrap: break-word;
 }
 
+.anchor {
+  color: #777;
+  transition: all ease 0.2s;
+}
 .anchor:hover {
   color: #919191;
+  transform: translateY(-0.2rem);
 }
-.anchor:link, .anchor:visited {
+.anchor:link .anchor:visited {
   color: #777;
 }
 
@@ -55,7 +60,7 @@ body {
   display: inherit;
   flex-direction: row;
   justify-content: space-between;
-  gap: 8rem;
+  gap: 12rem;
 }
 
 .section__primary {
@@ -75,6 +80,12 @@ body {
   max-width: calc(1vw + 80rem);
   height: 50vh;
   margin: 0 auto;
+}
+.section__primary-text:hover {
+  color: #919191;
+}
+.section__primary-text:link, .section__primary-text:visited {
+  color: #777;
 }
 
 body {

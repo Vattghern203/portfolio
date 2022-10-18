@@ -1,10 +1,15 @@
 .anchor {
 
+    color: $font-color-gray;
+
+    transition: all ease .2s;
+
     &:hover {
         color: lighten($font-color-gray, 10%);
+        transform: translateY(-.2rem);
     }
 
-    &:link, &:visited {
+    &:link &:visited {
         color: $font-color-gray;
     }
 }
